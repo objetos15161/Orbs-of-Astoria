@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=enemigo()
+comment0.text=\r\n\ constructor\ de\ enemigo,\ agrega\ en\ X\ un\ valor\ aleatorio\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ llama\ al\ metodo\ mueve\r\n
+comment2.params=
+comment2.target=void\ mueve()
+comment2.text=\r\n\ mueve\ al\ enemigo\ hacia\ abajo\ y\ chocando\ con\ las\ esquinas,\ lo\ elimina\ cuando\ llega\ al\ limite\ de\ abajo\r\n
+comment3.params=
+comment3.target=int\ getValorX()
+comment3.text=\r\n\ regresa\ el\ valor\ en\ X\ que\ tenga\ el\ enemigo\r\n
+numComments=4

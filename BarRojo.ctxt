@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=BarRojo()
+comment0.text=\r\n\ constructor\ de\ la\ barra\ roja\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ llama\ al\ metodo\ mueve\r\n\ \r\n
+comment2.params=
+comment2.target=void\ mueve()
+comment2.text=\r\n\ mueve\ la\ barra\ con\ la\ velocidad\ por\ el\ nivel\ que\ este\ actualmente\r\n\ si\ toca\ al\ pj\ se\ pone\ transparente\ la\ barra\r\n\ y\ si\ llega\ al\ limite\ la\ elimina\r\n
+numComments=3

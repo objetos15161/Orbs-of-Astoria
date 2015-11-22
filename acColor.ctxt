@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=color
+comment0.target=void\ cambia(int)
+comment0.text=\r\n\ selecciona\ el\ color\ que\ este\ el\ personaje\ y\ lo\ pone\ como\r\n\ seleccion\ actual\r\n
+numComments=1
