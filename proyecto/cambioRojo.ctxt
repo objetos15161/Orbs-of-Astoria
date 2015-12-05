@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=cambioRojo()
+comment0.text=\r\n\ constructor\ de\ cambioRojo,\ agrega\ en\ X\ un\ valor\ aleatorio\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ llama\ al\ metodo\ mueve\r\n
+comment2.params=
+comment2.target=int\ getValorX()
+comment2.text=\r\n\ regresa\ el\ valor\ de\ X\ de\ cambio\ Rojo\r\n
+numComments=3
