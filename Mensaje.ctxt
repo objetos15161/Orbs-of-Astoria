@@ -1,5 +1,0 @@
-#BlueJ class context
-comment0.params=t
-comment0.target=Mensaje(java.lang.String)
-comment0.text=\r\n\ constructor\ de\ mensaje,\ a\ la\ cadena\ que\ llega\ le\ pone\ el\ color\ y\ tama\u00F1o\r\n
-numComments=1
