@@ -28,34 +28,10 @@ public class cambioAmarillo extends cambioColor
     public void act() 
     {
        
-        mueve();
+        super.mueve();
     }
     
-    /*
-     * mueve al cambioAmarillo, lo elimina cuando llega al limite de abajo
-     */
-    public void mueve()
-    {
-       
-        setLocation(valorX,mueveObjeto);
-        mueveObjeto++;
-       
-        mueveObjeto=mueveObjeto+2;
-        
-      
-        
-        
-        
-        if(getY()>550)
-        getWorld().removeObject(this);
-        
-        
-        
-    
-    
-    
-    }
-    
+   
     /*
      * regresa el valor de X de cambioAmarillo
      */

@@ -29,34 +29,10 @@ public class cambioMorado extends cambioColor
     public void act() 
     {
         
-        mueve();
+        super.mueve();
     }
     
-    /*
-     * mueve a cambioMorado, lo elimina cuando llega al limite de abajo
-     */
-    public void mueve()
-    {
-        
-        setLocation(valorX,mueveObjeto);
-        mueveObjeto++;
-       
-        mueveObjeto=mueveObjeto+2;
-        
-       
-        
-        
-        
-        if(getY()>550)
-        getWorld().removeObject(this);
-        
-      
-        
-        
-    
-    
-    
-    }
+   
     
     /*
      * regresa el valor en X de cambioMorado

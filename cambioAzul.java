@@ -29,35 +29,10 @@ public class cambioAzul extends cambioColor
     public void act() 
     {
        
-        mueve();
+        super.mueve();
     }
     
-    /*
-     * mueve al cambio azul, si llega al limite de abajo lo elimina
-     */
-    public void mueve()
-    {
-       
-        setLocation(valorX,mueveObjeto);
-        mueveObjeto++;
-       
-        mueveObjeto=mueveObjeto+2;
-        
-        
-        
-        
-        
-        if(getY()>550)
-        getWorld().removeObject(this);
-        
-        
-        
-        
-    
-    
-    
-    }
-    
+      
     /*
      * regresa el valor de X de cambio azul
      */

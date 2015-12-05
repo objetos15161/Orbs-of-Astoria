@@ -3,6 +3,7 @@ import java.lang.Object;
 import java.lang.String;
 import java.awt.Color;
 import greenfoot.UserInfo;
+import javax.swing.*;
 
 
 /**
@@ -52,10 +53,11 @@ public class ArtoriasWorld extends World
     private int tiempoActual;
     private int opcion;
     private int record;
-    private String rec1,rec2,rec3;
+    private String rec1,rec2,rec3,recNom1,recNom2,recNom3;
     
     GreenfootSound sound = new GreenfootSound("musiquita.mp3");
     GreenfootSound sound2 = new GreenfootSound("menu.mp3");
+   
     //private static GreenfootImage[] letra = {new GreenfootImage("let1.png"),new GreenfootImage("let2.png"),new GreenfootImage("let3.png")};
     //private GreenfootImage show;
     //private GreenfootImage le1 = new GreenfootImage("let1.png");
@@ -73,6 +75,9 @@ public class ArtoriasWorld extends World
         rec1 = Integer.toString(90);
         rec2 = Integer.toString(60);
         rec3 = Integer.toString(10);
+        recNom1 = "player1";
+        recNom2 = "player2";
+        recNom3 = "player3";
         
         menu();
         //creanivel();
@@ -138,9 +143,9 @@ public class ArtoriasWorld extends World
      */
     public void records()
     {
-        addObject(new Mensaje("PAYER1"),181,121);
-        addObject(new Mensaje("PLAYER2"),181,173);
-        addObject(new Mensaje("PLAYER3"),181,230);
+        addObject(new Mensaje(recNom1),181,121);
+        addObject(new Mensaje(recNom2),181,173);
+        addObject(new Mensaje(recNom3),181,230);
         
         addObject(new Mensaje(rec1),557,121);
         addObject(new Mensaje(rec2),557,173);
@@ -165,8 +170,7 @@ public class ArtoriasWorld extends World
         velExtra=0;
         
         
-        //Bar2 = new BarAzul();
-        //addObject(Bar2,400,2);
+       
         
         
         
@@ -348,13 +352,16 @@ public class ArtoriasWorld extends World
             
             if(record > Integer.parseInt(rec1))
             {
+                recNom1 = JOptionPane.showInputDialog(null,"Nombre" ,JOptionPane.QUESTION_MESSAGE);
                 rec1 = Integer.toString(record);
             
             }else if(record > Integer.parseInt(rec2))
               {
+                recNom2 = JOptionPane.showInputDialog(null,"Nombre" ,JOptionPane.QUESTION_MESSAGE);
                 rec2 = Integer.toString(record);
               }else if(record > Integer.parseInt(rec3))
                 {
+                    recNom3 = JOptionPane.showInputDialog(null,"Nombre" ,JOptionPane.QUESTION_MESSAGE);
                     rec3 = Integer.toString(record);
                 }
         
